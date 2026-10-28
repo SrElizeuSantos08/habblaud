@@ -10,6 +10,10 @@ do meio (0.**3**.0).
 
 ## [Não lançado]
 
+### Adicionado
+
+- **Equipe Codex personalizada:** seis perfis para os turnos diurno e noturno, gestão e supervisão. A gerente pode ampliar por área até oito execuções paralelas e deve reduzir a equipe quando a carga cair.
+
 ## [1.0.3] - 2026-10-16
 
 ### Corrigido
