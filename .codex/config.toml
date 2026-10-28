@@ -1,0 +1,35 @@
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 8
+default_subagent_model = "gpt-6-luna"
+default_subagent_reasoning_effort = "medium"
+
+[agents.dia_implementacao]
+description = "Marina Alves — Engenheira de Implementação"
+config_file = "agents/dia_implementacao.toml"
+nickname_candidates = ["Marina"]
+
+[agents.dia_analise]
+description = "Rafael Costa — Analista de Diagnóstico"
+config_file = "agents/dia_analise.toml"
+nickname_candidates = ["Rafael"]
+
+[agents.noite_manutencao]
+description = "Camila Rocha — Engenheira de Manutenção"
+config_file = "agents/noite_manutencao.toml"
+nickname_candidates = ["Camila"]
+
+[agents.noite_documentacao]
+description = "Bruno Lima — Especialista em Documentação"
+config_file = "agents/noite_documentacao.toml"
+nickname_candidates = ["Bruno"]
+
+[agents.gerente]
+description = "Helena Martins — Gerente de Operações"
+config_file = "agents/gerente.toml"
+nickname_candidates = ["Helena"]
+
+[agents.supervisor]
+description = "Marcelo Duarte — Supervisor de Qualidade"
+config_file = "agents/supervisor.toml"
+nickname_candidates = ["Marcelo"]
